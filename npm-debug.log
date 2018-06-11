@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'autoprefixer@^6.0.0' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.2
+4 warn package.json apigoogletranslate@1.0.0 No description
+5 warn package.json apigoogletranslate@1.0.0 No repository field.
+6 warn package.json apigoogletranslate@1.0.0 No README data
+7 warn package.json ffmpeg@0.0.4 No license field.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'autoprefixer@^6.0.0', null ]
+10 verbose cache add name=undefined spec="autoprefixer@^6.0.0" args=["autoprefixer@^6.0.0",null]
+11 verbose parsed url Url {
+11 verbose parsed url   protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'autoprefixer@%5E6.0.0',
+11 verbose parsed url   path: 'autoprefixer@%5E6.0.0',
+11 verbose parsed url   href: 'autoprefixer@%5E6.0.0' }
+12 verbose cache add name="autoprefixer" spec="^6.0.0" args=["autoprefixer","^6.0.0"]
+13 verbose parsed url Url {
+13 verbose parsed url   protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '%5E6.0.0',
+13 verbose parsed url   path: '%5E6.0.0',
+13 verbose parsed url   href: '%5E6.0.0' }
+14 verbose addNamed [ 'autoprefixer', '^6.0.0' ]
+15 verbose addNamed [ null, '>=6.0.0 <7.0.0' ]
+16 silly lockFile 275ce812-autoprefixer-6-0-0 autoprefixer@^6.0.0
+17 verbose lock autoprefixer@^6.0.0 /home/nht1206/.npm/275ce812-autoprefixer-6-0-0.lock
+18 silly addNameRange { name: 'autoprefixer', range: '>=6.0.0 <7.0.0', hasData: false }
+19 verbose request where is /autoprefixer
+20 verbose request registry http://registry.npmjs.org/
+21 verbose request id 0b34a3c91be58a78
+22 verbose url raw /autoprefixer
+23 verbose url resolving [ 'http://registry.npmjs.org/', './autoprefixer' ]
+24 verbose url resolved http://registry.npmjs.org/autoprefixer
+25 verbose request where is http://registry.npmjs.org/autoprefixer
+26 info trying registry request attempt 1 at 11:37:48 PM
+27 http GET http://registry.npmjs.org/autoprefixer
+28 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 125.235.4.59:80
+29 info trying registry request attempt 2 at 11:40:07 PM
+30 http GET http://registry.npmjs.org/autoprefixer
+31 http 403 http://registry.npmjs.org/autoprefixer
+32 verbose bad json <!--
+32 verbose bad json To change this template, choose Tools | Templates
+32 verbose bad json and open the template in the editor.
+32 verbose bad json -->
+32 verbose bad json <!DOCTYPE html>
+32 verbose bad json <html>
+32 verbose bad json     <head>
+32 verbose bad json         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+32 verbose bad json         <title>Viettel Telecom</title>
+32 verbose bad json     </head>
+32 verbose bad json     <body>
+32 verbose bad json         <div class="wrapper">
+32 verbose bad json             <div class="box_line">
+32 verbose bad json                 <div align="center" style="color: red;font-weight: normal;display:block">
+32 verbose bad json                     <b>Thông báo: Địa chỉ website không tồn tại!<br/>
+32 verbose bad json                     </b>
+32 verbose bad json                 </div>
+32 verbose bad json             </div>
+32 verbose bad json         </div>
+32 verbose bad json     </body>
+32 verbose bad json </html>
+33 error registry error parsing json
+34 verbose headers { server: 'nginx/1.10.1',
+34 verbose headers   date: 'Wed, 06 Jun 2018 16:40:10 GMT',
+34 verbose headers   'content-type': 'text/html',
+34 verbose headers   'content-length': '608',
+34 verbose headers   connection: 'close',
+34 verbose headers   etag: '"5ab1e249-260"' }
+35 silly registry.get cb [ 403,
+35 silly registry.get   { server: 'nginx/1.10.1',
+35 silly registry.get     date: 'Wed, 06 Jun 2018 16:40:10 GMT',
+35 silly registry.get     'content-type': 'text/html',
+35 silly registry.get     'content-length': '608',
+35 silly registry.get     connection: 'close',
+35 silly registry.get     etag: '"5ab1e249-260"' } ]
+36 silly lockFile 275ce812-autoprefixer-6-0-0 autoprefixer@^6.0.0
+37 silly lockFile 275ce812-autoprefixer-6-0-0 autoprefixer@^6.0.0
+38 error SyntaxError: Unexpected token < in JSON at position 0
+38 error <!--
+38 error To change this template, choose Tools | Templates
+38 error and open the template in the editor.
+38 error -->
+38 error <!DOCTYPE html>
+38 error <html>
+38 error     <head>
+38 error         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+38 error         <title>Viettel Telecom</title>
+38 error     </head>
+38 error     <body>
+38 error         <div class="wrapper">
+38 error             <div class="box_line">
+38 error                 <div align="center" style="color: red;font-weight: normal;display:block">
+38 error                     <b>Thông báo: Địa chỉ website không tồn tại!<br/>
+38 error                     </b>
+38 error                 </div>
+38 error             </div>
+38 error         </div>
+38 error     </body>
+38 error </html>
+38 error
+38 error     at JSON.parse (<anonymous>)
+38 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:266:23)
+38 error     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+38 error     at Request.self.callback (/usr/lib/nodejs/request/index.js:148:22)
+38 error     at emitTwo (events.js:126:13)
+38 error     at Request.emit (events.js:214:7)
+38 error     at Request.<anonymous> (/usr/lib/nodejs/request/index.js:896:14)
+38 error     at emitOne (events.js:121:20)
+38 error     at Request.emit (events.js:211:7)
+38 error     at IncomingMessage.<anonymous> (/usr/lib/nodejs/request/index.js:847:12)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Linux 4.14.0-parrot13-amd64
+41 error command "/usr/bin/node" "/usr/bin/npm" "install" "autoprefixer@^6.0.0"
+42 error cwd /home/nht1206/Documents/nodejs/bot-k23tpm6
+43 error node -v v8.11.2
+44 error npm -v 1.4.21
+45 verbose exit [ 1, true ]
